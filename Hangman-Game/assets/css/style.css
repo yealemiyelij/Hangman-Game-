@@ -1,0 +1,192 @@
+
+body {
+    background: url('../images/concrete-textures.jpg');
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .wrappper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrappper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  canvas {
+    color: #DF2B2B;
+    border:#ffeb3b dashed 2px;
+    padding: 15px;
+  }
+  
+  h1,h3 {
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 100;*/
+    /*text-transform: uppercase;*/
+    margin: 5px 0;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic
+  }
+ 
+  
+  p {
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  #alphabet {
+    margin: 15px auto;
+    padding: 0;
+    max-width: 900px;
+    text-align: center;
+  }
+  #alphabet:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    padding:5px;
+    cursor: pointer;
+    text-align: center;
+
+      
+  }
+  
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 35px;
+    height: 30px;
+    padding-top: 10px;
+    background: #fff;
+    color: #c1d72e;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border: solid 1px #fff;
+    text-align: center;
+  }
+  #alphabet li:hover {
+    background: #c1d72e;
+    border: solid 1px #fff;
+    color: #fff;
+  }
+  
+  #my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+    
+  }
+  
+  .active {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    cursor: default;
+  }
+  .active:hover {
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  
+  #mylives {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  #upperhead {
+    background: #c1d72e;
+    color: #fff;
+    border: double solid  auto #fff;
+    text-decoration: italic;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+  }
+
+  #upperhead:hover {
+    background: #fff;
+    border: solid auto #fff;
+    color: #c1d72e;
+    padding: 18px 10px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: #c1d72e;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+    
+  }
+  button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: #c1d72e;
+  }
+  
+  @media (max-width: 767px) {
+    #alphabet {
+      padding: 0 0 0 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    #alphabet {
+      padding: 0 0 0 25px;
+    }
+  }
+
+.main-container {
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10% auto;
+    background-image: url('../images/hangman1.jpg');
+    /*background-repeat: no-repeat;*/
+    text-align: center;
+
+}
+  
